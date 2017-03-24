@@ -1,10 +1,10 @@
 bl_info = {
 	"name": "Vray Render Passes",
 	"author": "JuhaW",
-	"version": (0, 1, 0),
+	"version": (0, 1, 1),
 	"blender": (2, 77, 0),
 	"location": "Tools",
-	"description": "Easier render/light passes",
+	"description": "Easier render/light passes, for exporter vb35",
 	"warning": "beta",
 	"wiki_url": "",
 	"category": "",

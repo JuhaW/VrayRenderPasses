@@ -100,7 +100,9 @@ class ClearPasses(bpy.types.Operator):
 			node.select = False
 			# node name to RenderPasses names
 			node.name = RPSettings.RenderPasses[i][1]
-
+			# new version of exporter uses this
+			node.RenderChannelColor.name = RPSettings.RenderPasses[i][1]
+			
 			# add input socket
 			node_out.inputs.new(name='Channel', type='VRaySocketRenderChannel')
 			# set renderpass off
