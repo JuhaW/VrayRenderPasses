@@ -41,12 +41,12 @@ class RPSettings:
 	# RenderPasses = [i['items'][:2] for i in PLUGINS_ID['RenderChannelColor'].PluginParams if i['attr'] == 'alias']
 
 	# RenderChannelObjectSelect ?
-	RPassOther = ['RenderChannelBumpNormals', 'RenderChannelColorModo', 'RenderChannelCoverage',
-				  'RenderChannelDRBucket', 'RenderChannelExtraTex', 'RenderChannelGlossiness',
+	RPassOther = ['RenderChannelCoverage',
+				  'RenderChannelDRBucket', 'RenderChannelExtraTex',
 				  'RenderChannelMultiMatte', 'RenderChannelNodeID', 'RenderChannelNormals',
 				  'RenderChannelObjectSelect',
 				  'RenderChannelRenderID', 'RenderChannelVelocity', 'RenderChannelZDepth',
-				  'RenderChannelDenoiser']
+				  'RenderChannelDenoiser', 'RenderChannelCryptomatte']
 
 	bval = [False, True, True]
 
